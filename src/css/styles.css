@@ -4,13 +4,17 @@
   | default @import url()
   |============================
 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:ital,wght@0,800;1,800&family=Roboto:wght@400;500;700;900&display=swap');
 @import url('./reset.css');
-@import url('../../node_modules/simplelightbox/dist/simple-lightbox.min.css');
-@import url('./gallery.css');
-@import url('./form.css');
+@import url('./vite-promo.css');
+@import url('./header.css');
+@import url('flatpickr/dist/flatpickr.min.css');
+@import url('izitoast/dist/css/iziToast.min.css');
+@import url('./timer.css');
+@import url('./snackbar.css');
 
 :root {
-  font-family: Montserrat, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -23,9 +27,4 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-body {
-  max-width: 1440px;
-  margin: 0 auto;
 }
